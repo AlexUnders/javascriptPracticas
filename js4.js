@@ -52,10 +52,10 @@ function imagen(){
             imga.src="Recursos/2x1.gif";
             break;
         case 2:
-            imga.src="Terror/2x1.gif";
+            imga.src="Recursos/Terror.gif";
             break;
         case 3:
-            imga.src="Viernes/2x1.gif";
+            imga.src="Recursos/Viernes.gif";
             break;
         default:
             console.log("No hay más imágenes.")
