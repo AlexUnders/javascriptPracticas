@@ -11,13 +11,14 @@ function calculadora(){
         case '-':
             res.value = num1-num2;
             break;
-        case '*':
+        case 'x':
             res.value = num1*num2;
             break;
         case '/':
             res.value = num1/num2;
             break;
         default:
+            res.value ="opción invalida"
             break;
     }
 }
