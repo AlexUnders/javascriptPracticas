@@ -9,13 +9,13 @@ function tabla(){
         case "+":
             for (let i = 1; i <= long; i++) {
                 res = table*i;
-                imprimir.innerHTML += table + "x"+ i + "=" + res+ "<br>";
+                imprimir.innerHTML += table + "x"+ i + "=" + res+"<br>";
             }
             break;
         case "-":
             for (let i = long; i>0; i--){
                 res = table*i;
-                imprimir.innerHTML += table + "x"+ i + "=" + res+ "<br>";
+                imprimir.innerHTML += table + "x"+ i + "=" + res+"<br>";
             }
             break;
         default:
